@@ -134,7 +134,7 @@ function App() {
 
         <div
           className="bg-cover h-full sm:bg-cover"
-          style={{ backgroundImage: `url(${One})`, height:"full" }}>
+          style={{ backgroundImage: `url(${One}`, height:"full" }}>
 
 
           {/* Navigation Links */}
