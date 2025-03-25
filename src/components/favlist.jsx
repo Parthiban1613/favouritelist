@@ -11,7 +11,7 @@ function FavList({ favorites, removeFromFavorites }) {
         
           >
             {/* Player Image and Name */}
-            <div className="flex flex-row items-center gap-3">
+            <div className="flex flex-row flex-wrap items-center gap-3">
               <img
                 src={favorite.photo}
                 alt={favorite.name}
@@ -25,7 +25,7 @@ function FavList({ favorites, removeFromFavorites }) {
             {/* Remove Button */}
             <button
               onClick={() => removeFromFavorites(favorite)}
-              className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-xs md:text-lg px-5 py-2.5 text-center me-2 mb-2 mr-80"
+              className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-xs md:text-lg px-5 py-2.5 text-center me-2 mb-2 md:mr-80"
             >
               Remove
             </button>
